@@ -12,4 +12,16 @@
 
     </bean>
 
+    <bean id ="atm"
+          class="com.example.dependencyinjection.ATM">
+        <property name="setting" ref="office"></property>
+        <property name="name" value="Ali_khalid"></property>
+        <property name="id" value="234325235" ></property>
+
+    </bean>
+    <bean id ="office"
+          class="com.example.dependencyinjection.Office">
+
+    </bean>
+
 </beans>
